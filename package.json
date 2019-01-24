@@ -1,0 +1,29 @@
+{
+  "name": "nodesqlserversequelize",
+  "version": "1.0.0",
+  "description": "CRUD operations testing in Node using Sequelize ORM for SQL Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bassambst/NodeSQLServerSequelize.git"
+  },
+  "keywords": [
+    "node",
+    "sequelize",
+    "sql-server",
+    "mssql"
+  ],
+  "author": "bassambst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bassambst/NodeSQLServerSequelize/issues"
+  },
+  "homepage": "https://github.com/bassambst/NodeSQLServerSequelize#readme",
+  "dependencies": {
+    "sequelize": "^4.42.0",
+    "tedious": "^4.1.3"
+  }
+}
